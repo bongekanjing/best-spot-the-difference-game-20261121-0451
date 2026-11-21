@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gull Cove — Spot the Difference</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="title">
+    <h1>Gull Cove</h1>
+    <p class="tagline">Spot the difference · three rounds, eight differences each</p>
+  </div>
+  <div class="hud">
+    <div class="hud-round"><span id="hud-round">Round 1 · Dusk at Gull Cove</span><span id="hud-sub" class="sub">The lighthouse keeper lit the lamp — or did he?</span></div>
+    <div class="hud-found" id="hud-found">Found 0 / 8 · 8 to go</div>
+    <div class="hud-time"><span id="hud-time">3:00</span><div class="timebar"><div id="hud-timebar"></div></div></div>
+    <div class="hud-score" id="hud-score">Score 0</div>
+    <div class="hud-buttons">
+      <button id="btn-hint" type="button">Hint (3)</button>
+      <button id="btn-mute" type="button">Sound on</button>
+      <button id="btn-restart" type="button">Restart</button>
+    </div>
+  </div>
+</header>
+
+<main class="boards">
+  <section class="panel">
+    <h2>Panel A</h2>
+    <canvas id="canvas-a" width="600" height="450"></canvas>
+  </section>
+  <section class="panel">
+    <h2>Panel B</h2>
+    <canvas id="canvas-b" width="600" height="450"></canvas>
+  </section>
+
+  <div id="overlay-menu" class="overlay">
+    <div class="card">
+      <h2>Find all 8 differences</h2>
+      <p>Two pictures of the same place, side by side — but eight small things changed between them. Click a difference on either panel to ring it on both.</p>
+      <p>Three rounds: <strong>Dusk at Gull Cove</strong>, <strong>The Night Market</strong>, <strong>Observatory Hill</strong>. Three minutes a round, three hints a round, 100 points a find.</p>
+      <p class="keys">Click to mark · <strong>H</strong> hint · <strong>R</strong> retry round · <strong>M</strong> sound</p>
+      <button id="btn-start" type="button" class="big">Start round 1</button>
+    </div>
+  </div>
+
+  <div id="overlay-round" class="overlay hidden">
+    <div class="card">
+      <h2>Round complete!</h2>
+      <p id="round-score">Round score 0</p>
+      <button id="btn-next" type="button" class="big">Next round</button>
+    </div>
+  </div>
+
+  <div id="overlay-time" class="overlay hidden">
+    <div class="card">
+      <h2>Time’s up!</h2>
+      <p>The differences are still out there. Try the round again.</p>
+      <button id="btn-retry" type="button" class="big">Retry this round</button>
+    </div>
+  </div>
+
+  <div id="overlay-end" class="overlay hidden">
+    <div class="card">
+      <h2>You found them all!</h2>
+      <p id="end-score">Score 0</p>
+      <button id="btn-again" type="button" class="big">Play again</button>
+    </div>
+  </div>
+</main>
+
+<footer class="foot">
+  <p>Click a difference on either panel — it rings on both. A wrong click just flashes red. Hints are limited, so spend them where you are stuck.</p>
+</footer>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
