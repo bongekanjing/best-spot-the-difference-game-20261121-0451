@@ -1,8 +1,8 @@
 # Twin Tales — Spot the Difference
 
-[![Competition](https://img.shields.io/badge/competition-bongekanjing%2Fbest--spot--the--difference--game--20261121--0451-blue)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451)
-[![Rank](https://img.shields.io/badge/rank-bongekanjing%2Fbest--spot--the--difference--game--20261121--0451-lightgrey)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451)
-[![Reward](https://img.shields.io/badge/reward-bongekanjing%2Fbest--spot--the--difference--game--20261121--0451-%2450%20pot-gold)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451)
+[![make.fun · best-spot-the-difference-game-20261121-0451](https://make.fun/badge/best-spot-the-difference-game-20261121-0451.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![rank](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/bongekanjing/best-spot-the-difference-game-20261121-0451/rank.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
+[![reward](https://make.fun/badge/best-spot-the-difference-game-20261121-0451/bongekanjing/best-spot-the-difference-game-20261121-0451/reward.svg)](https://make.fun/bounty/best-spot-the-difference-game-20261121-0451?utm_source=github&utm_medium=readme&utm_campaign=best-spot-the-difference-game-20261121-0451)
 
 Repository: [bongekanjing/best-spot-the-difference-game-20261121-0451](https://github.com/bongekanjing/best-spot-the-difference-game-20261121-0451)
 
